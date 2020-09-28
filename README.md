@@ -5,11 +5,11 @@
 ---
 ```html
 <form action="vendor/signin.php" method="post">
-        <label>Логин</label>
-        <input type="text" name="login" placeholder="Введите свой логин">
-        <label>Пароль</label>
-        <input type="password" name="password" placeholder="Введите свой пароль">
-        <button type="submit">Войти</button>
+        <label>Login</label>
+        <input type="text" name="login" placeholder="Enter your login">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter your password">
+        <button type="submit">Enter</button>
         <p>
             У вас нет аккаунта? <a href="/register.php">Зарегистрируйтесь</a>
         </p>
