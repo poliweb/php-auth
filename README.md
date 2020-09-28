@@ -11,7 +11,7 @@
         <input type="password" name="password" placeholder="Enter your password">
         <button type="submit">Enter</button>
         <p>
-            У вас нет аккаунта? <a href="/register.php">Зарегистрируйтесь</a>
+            Don't have an account? <a href="/register.php">Register now</a>
         </p>
 ```
  ```php
