@@ -13,14 +13,16 @@
         <p>
             У вас нет аккаунта? <a href="/register.php">Зарегистрируйтесь</a>
         </p>
-        ```php
+```
+ ```php
         <?php 
         if ($_SESSION['message']) {
             echo '<p class="msg">' . $_SESSION['message'] . '</p>';
         }
             unset($_SESSION['message']);
         ?>
-        ```
+ ```
+```html
     </form>
 ```
 ---
